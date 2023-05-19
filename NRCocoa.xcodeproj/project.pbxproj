@@ -17,6 +17,9 @@
 		522BEB8A2A170F1700746276 /* NRCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522BEB892A170F1700746276 /* NRCocoaTests.swift */; };
 		522BEB942A170F1700746276 /* NRCocoaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522BEB932A170F1700746276 /* NRCocoaUITests.swift */; };
 		522BEB962A170F1700746276 /* NRCocoaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522BEB952A170F1700746276 /* NRCocoaUITestsLaunchTests.swift */; };
+		522BEBA32A170FB400746276 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 522BEBA22A170FB400746276 /* Podfile */; };
+		522BEBA52A1719F600746276 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 522BEBA42A1719F600746276 /* README.md */; };
+		A5123768A45036D4D44BC800 /* Pods_NRCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E649C034180F5575279377 /* Pods_NRCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FF337ACEF00432766FA8B2B /* Pods-NRCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRCocoa.release.xcconfig"; path = "Target Support Files/Pods-NRCocoa/Pods-NRCocoa.release.xcconfig"; sourceTree = "<group>"; };
+		46E649C034180F5575279377 /* Pods_NRCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		522BEB6C2A170F1500746276 /* NRCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522BEB6F2A170F1500746276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		522BEB712A170F1500746276 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		522BEB8F2A170F1700746276 /* NRCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NRCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		522BEB932A170F1700746276 /* NRCocoaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRCocoaUITests.swift; sourceTree = "<group>"; };
 		522BEB952A170F1700746276 /* NRCocoaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRCocoaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		522BEBA22A170FB400746276 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		522BEBA42A1719F600746276 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A24E07262F7A065B09EBC452 /* Pods-NRCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRCocoa.debug.xcconfig"; path = "Target Support Files/Pods-NRCocoa/Pods-NRCocoa.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5123768A45036D4D44BC800 /* Pods_NRCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +87,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ACAEFE100A50BB1B5B8D63D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A24E07262F7A065B09EBC452 /* Pods-NRCocoa.debug.xcconfig */,
+				1FF337ACEF00432766FA8B2B /* Pods-NRCocoa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		522BEB632A170F1500746276 = {
 			isa = PBXGroup;
 			children = (
+				522BEBA42A1719F600746276 /* README.md */,
+				522BEBA22A170FB400746276 /* Podfile */,
 				522BEB6E2A170F1500746276 /* NRCocoa */,
 				522BEB882A170F1700746276 /* NRCocoaTests */,
 				522BEB922A170F1700746276 /* NRCocoaUITests */,
 				522BEB6D2A170F1500746276 /* Products */,
+				1ACAEFE100A50BB1B5B8D63D /* Pods */,
+				54C8E25A9BCCA33C2674676E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +152,14 @@
 			path = NRCocoaUITests;
 			sourceTree = "<group>";
 		};
+		54C8E25A9BCCA33C2674676E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46E649C034180F5575279377 /* Pods_NRCocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 522BEB992A170F1700746276 /* Build configuration list for PBXNativeTarget "NRCocoa" */;
 			buildPhases = (
+				53326C384E1A69811CC787A3 /* [CP] Check Pods Manifest.lock */,
 				522BEB682A170F1500746276 /* Sources */,
 				522BEB692A170F1500746276 /* Frameworks */,
 				522BEB6A2A170F1500746276 /* Resources */,
+				CD512C3013ADD69DEB8B5A01 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +268,8 @@
 			files = (
 				522BEB7F2A170F1600746276 /* LaunchScreen.storyboard in Resources */,
 				522BEB7C2A170F1600746276 /* Assets.xcassets in Resources */,
+				522BEBA52A1719F600746276 /* README.md in Resources */,
+				522BEBA32A170FB400746276 /* Podfile in Resources */,
 				522BEB772A170F1500746276 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +289,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53326C384E1A69811CC787A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NRCocoa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD512C3013ADD69DEB8B5A01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NRCocoa/Pods-NRCocoa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NRCocoa/Pods-NRCocoa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NRCocoa/Pods-NRCocoa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		522BEB682A170F1500746276 /* Sources */ = {
@@ -436,6 +512,7 @@
 		};
 		522BEB9A2A170F1700746276 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24E07262F7A065B09EBC452 /* Pods-NRCocoa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +541,7 @@
 		};
 		522BEB9B2A170F1700746276 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF337ACEF00432766FA8B2B /* Pods-NRCocoa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
