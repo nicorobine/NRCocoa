@@ -1,20 +1,42 @@
 PODS:
   - FDFullscreenPopGesture (1.1)
   - MJRefresh (3.7.5)
+  - Nimble (12.0.0)
+  - Quick (6.1.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
 
 DEPENDENCIES:
   - FDFullscreenPopGesture
   - MJRefresh
+  - Nimble
+  - Quick
+  - RxCocoa
+  - RxSwift
 
 SPEC REPOS:
   trunk:
     - FDFullscreenPopGesture
     - MJRefresh
+    - Nimble
+    - Quick
+    - RxCocoa
+    - RxRelay
+    - RxSwift
 
 SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  Nimble: 02a4990866e51868303a466970cd1c81bb84a192
+  Quick: 6676ffb409bf04abba2ff23902af2407bfc6ac90
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
 
-PODFILE CHECKSUM: 75ededd7a4600ebfa3592d6c59e7c7a0c0a46efc
+PODFILE CHECKSUM: ffef95e4b6323d21a510f96423fe96052c25165c
 
 COCOAPODS: 1.11.3
